@@ -1,6 +1,4 @@
-git add netlify.toml
-git commit -m "Add netlify.toml for deployment configuration"
-git push
+
 [build]
   command = "npm run build"
   publish = "dist"
