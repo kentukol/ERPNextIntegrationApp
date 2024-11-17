@@ -1,11 +1,7 @@
-
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "npm run build"  # Build command for the app
+  publish = "dist"           # Directory where the built files are stored
 
 [context.production.environment]
-  NODE_VERSION = "16"  # Make sure to use the correct version
+  NODE_VERSION = "16"        # Specify the correct Node version
 
-[[plugins]]
-  package = "@netlify/plugin-node-versions"
-  version = "2.0.0"
