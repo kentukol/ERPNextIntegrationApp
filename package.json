@@ -5,7 +5,6 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "start": "vite",
     "watch": "tailwindcss -i src/styles.css -o dist/styles.css --watch"
   },
   "dependencies": {
