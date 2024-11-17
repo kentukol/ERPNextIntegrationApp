@@ -1,3 +1,13 @@
 git add netlify.toml
 git commit -m "Add netlify.toml for deployment configuration"
 git push
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[context.production.environment]
+  NODE_VERSION = "16"  # Make sure to use the correct version
+
+[[plugins]]
+  package = "@netlify/plugin-node-versions"
+  version = "2.0.0"
