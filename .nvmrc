@@ -1,1 +1,2 @@
-echo "16" > .nvmrc
+[context.production.environment]
+  NODE_VERSION = "16"
