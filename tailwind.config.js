@@ -1,9 +1,10 @@
-
 module.exports = {
-  content: ['./src/**/*.{vue,js,ts,jsx,tsx}', './index.html'],
+  content: [
+    './index.html',
+    './src/**/*.{vue,js,ts,jsx,tsx}',  // Specify paths to your Vue components
+  ],
   theme: {
     extend: {},
   },
   plugins: [],
 };
-    
